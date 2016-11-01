@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCD4ECC1DC830410052DD3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ECB1DC830410052DD3A /* main.m */; };
+		ECCD4ECF1DC830410052DD3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ECE1DC830410052DD3A /* AppDelegate.m */; };
+		ECCD4ED21DC830410052DD3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ED11DC830410052DD3A /* ViewController.m */; };
+		ECCD4ED51DC830410052DD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED31DC830410052DD3A /* Main.storyboard */; };
+		ECCD4ED71DC830410052DD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED61DC830410052DD3A /* Assets.xcassets */; };
+		ECCD4EDA1DC830410052DD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED81DC830410052DD3A /* LaunchScreen.storyboard */; };
+		ECCD4EE51DC830410052DD3A /* G1KSlideAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4EE41DC830410052DD3A /* G1KSlideAnimationTests.m */; };
+		ECCD4EF01DC830410052DD3A /* G1KSlideAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4EEF1DC830410052DD3A /* G1KSlideAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCD4EE11DC830410052DD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCD4EBF1DC830410052DD3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD4EC61DC830410052DD3A;
+			remoteInfo = G1KSlideAnimation;
+		};
+		ECCD4EEC1DC830410052DD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCD4EBF1DC830410052DD3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD4EC61DC830410052DD3A;
+			remoteInfo = G1KSlideAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCD4EC71DC830410052DD3A /* G1KSlideAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G1KSlideAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD4ECB1DC830410052DD3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECCD4ECD1DC830410052DD3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECCD4ECE1DC830410052DD3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECCD4ED01DC830410052DD3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECCD4ED11DC830410052DD3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECCD4ED41DC830410052DD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCD4ED61DC830410052DD3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCD4ED91DC830410052DD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECCD4EDB1DC830410052DD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD4EE01DC830410052DD3A /* G1KSlideAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G1KSlideAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD4EE41DC830410052DD3A /* G1KSlideAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G1KSlideAnimationTests.m; sourceTree = "<group>"; };
+		ECCD4EE61DC830410052DD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD4EEB1DC830410052DD3A /* G1KSlideAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G1KSlideAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD4EEF1DC830410052DD3A /* G1KSlideAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G1KSlideAnimationUITests.m; sourceTree = "<group>"; };
+		ECCD4EF11DC830410052DD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCD4EC41DC830410052DD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EDD1DC830410052DD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EE81DC830410052DD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCD4EBE1DC830410052DD3A = {
+			isa = PBXGroup;
+			children = (
+				ECCD4EC91DC830410052DD3A /* G1KSlideAnimation */,
+				ECCD4EE31DC830410052DD3A /* G1KSlideAnimationTests */,
+				ECCD4EEE1DC830410052DD3A /* G1KSlideAnimationUITests */,
+				ECCD4EC81DC830410052DD3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCD4EC81DC830410052DD3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD4EC71DC830410052DD3A /* G1KSlideAnimation.app */,
+				ECCD4EE01DC830410052DD3A /* G1KSlideAnimationTests.xctest */,
+				ECCD4EEB1DC830410052DD3A /* G1KSlideAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCD4EC91DC830410052DD3A /* G1KSlideAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD4ECD1DC830410052DD3A /* AppDelegate.h */,
+				ECCD4ECE1DC830410052DD3A /* AppDelegate.m */,
+				ECCD4ED01DC830410052DD3A /* ViewController.h */,
+				ECCD4ED11DC830410052DD3A /* ViewController.m */,
+				ECCD4ED31DC830410052DD3A /* Main.storyboard */,
+				ECCD4ED61DC830410052DD3A /* Assets.xcassets */,
+				ECCD4ED81DC830410052DD3A /* LaunchScreen.storyboard */,
+				ECCD4EDB1DC830410052DD3A /* Info.plist */,
+				ECCD4ECA1DC830410052DD3A /* Supporting Files */,
+			);
+			path = G1KSlideAnimation;
+			sourceTree = "<group>";
+		};
+		ECCD4ECA1DC830410052DD3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD4ECB1DC830410052DD3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCD4EE31DC830410052DD3A /* G1KSlideAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD4EE41DC830410052DD3A /* G1KSlideAnimationTests.m */,
+				ECCD4EE61DC830410052DD3A /* Info.plist */,
+			);
+			path = G1KSlideAnimationTests;
+			sourceTree = "<group>";
+		};
+		ECCD4EEE1DC830410052DD3A /* G1KSlideAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD4EEF1DC830410052DD3A /* G1KSlideAnimationUITests.m */,
+				ECCD4EF11DC830410052DD3A /* Info.plist */,
+			);
+			path = G1KSlideAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCD4EC61DC830410052DD3A /* G1KSlideAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD4EF41DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimation" */;
+			buildPhases = (
+				ECCD4EC31DC830410052DD3A /* Sources */,
+				ECCD4EC41DC830410052DD3A /* Frameworks */,
+				ECCD4EC51DC830410052DD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = G1KSlideAnimation;
+			productName = G1KSlideAnimation;
+			productReference = ECCD4EC71DC830410052DD3A /* G1KSlideAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCD4EDF1DC830410052DD3A /* G1KSlideAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD4EF71DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimationTests" */;
+			buildPhases = (
+				ECCD4EDC1DC830410052DD3A /* Sources */,
+				ECCD4EDD1DC830410052DD3A /* Frameworks */,
+				ECCD4EDE1DC830410052DD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCD4EE21DC830410052DD3A /* PBXTargetDependency */,
+			);
+			name = G1KSlideAnimationTests;
+			productName = G1KSlideAnimationTests;
+			productReference = ECCD4EE01DC830410052DD3A /* G1KSlideAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCD4EEA1DC830410052DD3A /* G1KSlideAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD4EFA1DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimationUITests" */;
+			buildPhases = (
+				ECCD4EE71DC830410052DD3A /* Sources */,
+				ECCD4EE81DC830410052DD3A /* Frameworks */,
+				ECCD4EE91DC830410052DD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCD4EED1DC830410052DD3A /* PBXTargetDependency */,
+			);
+			name = G1KSlideAnimationUITests;
+			productName = G1KSlideAnimationUITests;
+			productReference = ECCD4EEB1DC830410052DD3A /* G1KSlideAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCD4EBF1DC830410052DD3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SOBF;
+				TargetAttributes = {
+					ECCD4EC61DC830410052DD3A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+					};
+					ECCD4EDF1DC830410052DD3A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECCD4EC61DC830410052DD3A;
+					};
+					ECCD4EEA1DC830410052DD3A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECCD4EC61DC830410052DD3A;
+					};
+				};
+			};
+			buildConfigurationList = ECCD4EC21DC830410052DD3A /* Build configuration list for PBXProject "G1KSlideAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCD4EBE1DC830410052DD3A;
+			productRefGroup = ECCD4EC81DC830410052DD3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCD4EC61DC830410052DD3A /* G1KSlideAnimation */,
+				ECCD4EDF1DC830410052DD3A /* G1KSlideAnimationTests */,
+				ECCD4EEA1DC830410052DD3A /* G1KSlideAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCD4EC51DC830410052DD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD4EDA1DC830410052DD3A /* LaunchScreen.storyboard in Resources */,
+				ECCD4ED71DC830410052DD3A /* Assets.xcassets in Resources */,
+				ECCD4ED51DC830410052DD3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EDE1DC830410052DD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EE91DC830410052DD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCD4EC31DC830410052DD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD4ED21DC830410052DD3A /* ViewController.m in Sources */,
+				ECCD4ECF1DC830410052DD3A /* AppDelegate.m in Sources */,
+				ECCD4ECC1DC830410052DD3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EDC1DC830410052DD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD4EE51DC830410052DD3A /* G1KSlideAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD4EE71DC830410052DD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD4EF01DC830410052DD3A /* G1KSlideAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCD4EE21DC830410052DD3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCD4EC61DC830410052DD3A /* G1KSlideAnimation */;
+			targetProxy = ECCD4EE11DC830410052DD3A /* PBXContainerItemProxy */;
+		};
+		ECCD4EED1DC830410052DD3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCD4EC61DC830410052DD3A /* G1KSlideAnimation */;
+			targetProxy = ECCD4EEC1DC830410052DD3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCD4ED31DC830410052DD3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD4ED41DC830410052DD3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECCD4ED81DC830410052DD3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD4ED91DC830410052DD3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCD4EF21DC830410052DD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCD4EF31DC830410052DD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCD4EF51DC830410052DD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECCD4EF61DC830410052DD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECCD4EF81DC830410052DD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G1KSlideAnimation.app/G1KSlideAnimation";
+			};
+			name = Debug;
+		};
+		ECCD4EF91DC830410052DD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G1KSlideAnimation.app/G1KSlideAnimation";
+			};
+			name = Release;
+		};
+		ECCD4EFB1DC830410052DD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = G1KSlideAnimation;
+			};
+			name = Debug;
+		};
+		ECCD4EFC1DC830410052DD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = G1KSlideAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KSlideAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = G1KSlideAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCD4EC21DC830410052DD3A /* Build configuration list for PBXProject "G1KSlideAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD4EF21DC830410052DD3A /* Debug */,
+				ECCD4EF31DC830410052DD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD4EF41DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD4EF51DC830410052DD3A /* Debug */,
+				ECCD4EF61DC830410052DD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCD4EF71DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD4EF81DC830410052DD3A /* Debug */,
+				ECCD4EF91DC830410052DD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCD4EFA1DC830410052DD3A /* Build configuration list for PBXNativeTarget "G1KSlideAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD4EFB1DC830410052DD3A /* Debug */,
+				ECCD4EFC1DC830410052DD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCD4EBF1DC830410052DD3A /* Project object */;
+}
