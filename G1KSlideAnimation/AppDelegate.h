@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  G1KSlideAnimation
+//  SlideAnimation
 //
-//  Created by Sobf Leo on 16/11/1.
+//  Created by Sobf Leo on 16/10/31.
 //  Copyright © 2016年 SOBF. All rights reserved.
 //
 

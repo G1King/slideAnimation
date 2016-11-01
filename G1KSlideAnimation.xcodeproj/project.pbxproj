@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		ECCD4ECC1DC830410052DD3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ECB1DC830410052DD3A /* main.m */; };
 		ECCD4ECF1DC830410052DD3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ECE1DC830410052DD3A /* AppDelegate.m */; };
-		ECCD4ED21DC830410052DD3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4ED11DC830410052DD3A /* ViewController.m */; };
 		ECCD4ED51DC830410052DD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED31DC830410052DD3A /* Main.storyboard */; };
 		ECCD4ED71DC830410052DD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED61DC830410052DD3A /* Assets.xcassets */; };
 		ECCD4EDA1DC830410052DD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD4ED81DC830410052DD3A /* LaunchScreen.storyboard */; };
 		ECCD4EE51DC830410052DD3A /* G1KSlideAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4EE41DC830410052DD3A /* G1KSlideAnimationTests.m */; };
 		ECCD4EF01DC830410052DD3A /* G1KSlideAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4EEF1DC830410052DD3A /* G1KSlideAnimationUITests.m */; };
+		ECCD4EFF1DC830740052DD3A /* G1KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD4EFE1DC830740052DD3A /* G1KViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		ECCD4ECB1DC830410052DD3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECCD4ECD1DC830410052DD3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECCD4ECE1DC830410052DD3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECCD4ED01DC830410052DD3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECCD4ED11DC830410052DD3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECCD4ED41DC830410052DD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECCD4ED61DC830410052DD3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCD4ED91DC830410052DD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		ECCD4EEB1DC830410052DD3A /* G1KSlideAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G1KSlideAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCD4EEF1DC830410052DD3A /* G1KSlideAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G1KSlideAnimationUITests.m; sourceTree = "<group>"; };
 		ECCD4EF11DC830410052DD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD4EFD1DC830740052DD3A /* G1KViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KViewController.h; sourceTree = "<group>"; };
+		ECCD4EFE1DC830740052DD3A /* G1KViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		ECCD4EC91DC830410052DD3A /* G1KSlideAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				ECCD4EFD1DC830740052DD3A /* G1KViewController.h */,
+				ECCD4EFE1DC830740052DD3A /* G1KViewController.m */,
 				ECCD4ECD1DC830410052DD3A /* AppDelegate.h */,
 				ECCD4ECE1DC830410052DD3A /* AppDelegate.m */,
-				ECCD4ED01DC830410052DD3A /* ViewController.h */,
-				ECCD4ED11DC830410052DD3A /* ViewController.m */,
 				ECCD4ED31DC830410052DD3A /* Main.storyboard */,
 				ECCD4ED61DC830410052DD3A /* Assets.xcassets */,
 				ECCD4ED81DC830410052DD3A /* LaunchScreen.storyboard */,
@@ -276,9 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCD4ED21DC830410052DD3A /* ViewController.m in Sources */,
 				ECCD4ECF1DC830410052DD3A /* AppDelegate.m in Sources */,
 				ECCD4ECC1DC830410052DD3A /* main.m in Sources */,
+				ECCD4EFF1DC830740052DD3A /* G1KViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

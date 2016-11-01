@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  G1KSlideAnimation
+//  SlideAnimation
 //
-//  Created by Sobf Leo on 16/11/1.
+//  Created by Sobf Leo on 16/10/31.
 //  Copyright © 2016年 SOBF. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "G1KViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [G1KViewController new];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
